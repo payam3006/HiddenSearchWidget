@@ -1,0 +1,45 @@
+body {
+  background-color: blueviolet;
+  margin: 0;
+  /* overflow-x: hidden; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  /* font-size: 20px; */
+}
+
+#searchWidget {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  justify-content: center;
+}
+
+i {
+  background-color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+input {
+  width: 100%;
+  color: #262626;
+  background-color: white;
+  /* height: 100%; */
+  padding: 12px 20px;
+  border: 0 solid white;
+  box-sizing: border-box;
+  outline: none;
+  transition: 0.5s;
+}
+
+::placeholder {
+  color: blueviolet;
+}
+
+.hidden {
+  width: 0;
+  padding: 0;
+}
